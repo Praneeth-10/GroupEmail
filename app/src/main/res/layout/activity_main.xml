@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/white"
+    android:orientation="vertical"
+    tools:context="com.example.hp.groupemail.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:background="@mipmap/ic_launcher"
+        app:srcCompat="?android:attr/scrollbarThumbVertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <Button
+        android:id="@+id/addGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="ADD GROUP"
+            android:layout_marginLeft="50dp"
+        android:textColor="@android:color/white"/>
+
+
+            <Button
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:background="@android:color/holo_green_light"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="View groups"
+                android:textColor="@android:color/white" />
+        </android.support.percent.PercentRelativeLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/addEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@android:color/holo_green_light"
+        android:text="add email"
+        android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/createMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:background="@android:color/holo_green_light"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="CReate EMAIL"
+                android:textColor="@android:color/white" />
+        </android.support.percent.PercentRelativeLayout>
+</LinearLayout>
+
+    </LinearLayout>
